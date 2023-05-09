@@ -1,0 +1,28 @@
+Already logging to gdb.txt.
+All defined functions:
+
+Non-debugging symbols:
+0x0000000000400568  _init
+0x0000000000400590  puts@plt
+0x00000000004005a0  setbuf@plt
+0x00000000004005b0  system@plt
+0x00000000004005c0  printf@plt
+0x00000000004005d0  gets@plt
+0x00000000004005e0  _start
+0x0000000000400610  _dl_relocate_static_pie
+0x0000000000400620  deregister_tm_clones
+0x0000000000400650  register_tm_clones
+0x0000000000400690  __do_global_dtors_aux
+0x00000000004006c0  frame_dummy
+0x00000000004006c7  main
+0x00000000004007d0  __libc_csu_init
+0x0000000000400840  __libc_csu_fini
+0x0000000000400844  _fini
+Function "0x00000000004006c7" not defined.
+Starting program: /home/kali/Desktop/CTF/picoCtf/ClutterOverflow/chall 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[Inferior 1 (process 73869) exited normally]
+Warning: 'set logging off', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled off'.
+
