@@ -15,7 +15,7 @@ for i in range(100):
 		print(str(i) + ': ' + str(result).strip())
 	p.close()
   
-io.interactive()
+p.interactive()
 
 
 
